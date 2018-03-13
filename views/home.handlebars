@@ -1,0 +1,33 @@
+<!--Homepage-->
+
+<div class='landing'></div>
+<div class='container'>  
+  <div class='header'>SCRAPED</div>
+</div>
+
+<div class="container">
+  <div class="col-md-12"></div>
+    {{#if article}}
+      {{#each article}}
+      <div class="panel">
+        <div class="panel-heading">
+          <h4 class='panel-title'>{{this.title}}</h4>
+        </div>
+        <div class="panel-body">
+          <p> {{this.summary}}</p>
+          <hr>
+          <a href={{this.link}} target="_blank">{{this.link}}</a>
+          <br><br>
+          <button type="button" class="btn save" data-id={{this._id}}>Save Article</button>
+        </div>
+      </div>
+      {{/each}}
+    {{else}}
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <h4>Looks like we don't have any new articles. Pay your subscription bill to start scraping!</h4>
+      </div>
+    </div>
+    {{/if}}
+  </div>
+</div>

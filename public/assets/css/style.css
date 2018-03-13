@@ -1,0 +1,67 @@
+body { 
+	padding-top: 70px; 
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: #EBECED;
+}
+
+main { flex: 1 0 auto; }
+
+#scrape {
+	background-color: #EBECED !important;
+	margin-top: 7px;
+	color: #3E3E3B !important;
+}
+
+.landing {
+	background: url(/assets/img/NYT_logo.png);
+	height: 160px;
+	background-position: center;
+ 	background-repeat: no-repeat;
+}
+
+.header {
+	font-family: 'Fredericka the Great', cursive;
+	text-align: center;
+	font-size: 80px !important;
+	font-style: italic;
+	margin-left: 50px;
+	text-decoration: underline overline;
+	padding-bottom: 5px;
+
+}
+
+.panel-title { 
+	color: #EBECED; 
+	text-align: left;
+}
+
+.panel-heading { background-color: #3E3E3B; }
+
+.btn {
+	background-color: #3E3E3B;
+	color: #EBECED !important;
+}
+
+h4 { text-align: center; }
+
+.modal-title { 
+	text-align: left; 
+	color: #EBECED;
+} 
+
+.modal-header { background-color: #3E3E3B; }
+
+.modal-footer { background-color: #EBECED; }
+
+.deleteNote { display: inline-block; }
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+footer {
+	
+}
